@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Chespin &#8212 Tutor Matching Bot</title>
+    <link rel="shortcut icon" href="../src/chespin.ico" type="image/x-icon">
+    <link rel="icon" href="../src/chespin.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Noto+Sans+KR|Noto+Serif|Raleway&display=swap"
+          rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="../styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!-- Navbar stuff -->
+<div class="navbar">
+    <a href="../index.html"> Home </a>
+    <div id="navbar-right">
+        <a href=""> About </a>
+        <a href="../pages/review.html"> Review </a>
+        <a href="../pages/contact.html"> Contact </a>
+    </div>
+</div>
+
+<!-- Intro Page -->
+<div class="base">
+    <div class="about">
+        <div class="about-intro">
+            <h1>About Me</h1>
+            <img src="../src/photo.jpg" alt="Personal Photo" height="300" width="300" class="center">
+            <h2 class="caption">
+                Fig. 1 : A photo of myself enjoying my exchange in Vancouver
+            </h2>
+            <p>
+                Hey there! I am <b>Nelson</b> from Singapore, a student at National University of Singapore (NUS).
+                After an amazing internship at a startup company, I am aspiring to become a <b>solutions architect.</b>
+                I have a keen interest in cloud infrastructure, machine learning and frontend web development,
+                as DevOps, data analytics, software development need to go hand-in-hand to create useful,
+                production-ready technology for businesses to thrive. As a business student, my life purpose is to
+                develop useful applications that can be integrated with operations to create business value.
+            </p>
+            <p>
+                I strongly believe that students should always strive to learn skills that are not taught in
+                school, as technology is always evolving. That being said, I am grateful for the opportunities
+                that NUS and Residential College 4 have provided for me — a community of learners, connections
+                and resources.
+            </p>
+            <p>
+                Over the past 2 years, I took part in numerous technology-related competitions ("Hackathons")
+                such as the CIMB  3D Conquest and AWS Build On 2019, as I believe these experiences
+                teach me skills that cannot be learnt in school. Furthermore, I take pride in personal
+                projects, and I am currently learning <a href="https://reactjs.org/">React</a>
+                to create a fullstack
+                <a href="https://nelsonlim96.github.io/">web application</a>
+                as my personal website.
+            </p>
+        </div>
+
+        <hr>
+
+        <div class="about-intro" style="padding-top: 1.5em; padding-bottom: 2em">
+            <h1>My Skills</h1>
+            <p>
+                I spent much of my free time learning programming languages and cloud technologies. Here's what I
+                learnt so far!
+            </p>
+            <div>
+                <img src="../src/python.png" class="center grey icon" alt="Python">
+                <h2>Python 3</h2>
+                <img src="../src/javascript.png" class="center grey icon" alt="Javascript">
+                <h2>Javascript </h2>
+                <img src="../src/amazon.png" class="center grey icon" alt="AWS">
+                <h2>Amazon Web Services </h2>
+                <img src="../src/react.png" class="center grey icon" alt="React">
+                <h2>React </h2>
+                <img src="../src/mysql.png" class="center grey icon" alt="SQL">
+                <h2>MySQL </h2>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="about-intro" id="remove-padding" style="padding-top: 1em;">
+            <h1>Experiences</h1>
+            <p>
+                For the past 2 years, I have had many amazing experiences in NUS. Here is a timeline of
+                my most significant milestones:
+            </p>
+        <div class="timeline">
+            <div class="container left">
+                <div class="content">
+                    <h3>Regional Operations Intern</h3>
+                    <div class="center">
+                        <img src="../src/companies/shopee.jpg" alt="Shopee">
+                        <h2 id="shopee">Shopee</h2>
+                    </div>
+                    <h4>Aug 2019 — Present</h4>
+                    <p class="remove-padding">
+                        I used Python to automate the data analytics pipeline for the Customer Service teams to
+                        create the daily report for reporting to senior management for decision making.
+                    </p>
+                    <p>
+                        I learnt how to write production-ready code for the Spark server using object-oriented
+                        programming. As my job involved mainly querying data from Salesforce and writing data to
+                        Google Spreadsheets, I am familiar with their API.
+                    </p>
+                </div>
+            </div>
+            <div class="container right">
+                <div class="content">
+                    <h3>Data Analytics Intern</h3>
+                    <div class="center">
+                        <img src="../src/companies/carigos.png" alt="Carigos">
+                        <h2 id="carigos">Carigos</h2>
+                    </div>
+                    <h4>May 2019 — Aug 2019</h4>
+                    <p>
+                        Carigos was experimenting with the possibility of automating the process of handling
+                        customer enquiries on WhatsApp with the help of a chatbot. I developed and tested several
+                        SaaS such as Amazon Lex, Verloop and Snatchbot. I successfully integrated the data
+                        pipelines with Airtable, our CRM, with the help of Zapier.
+                    </p>
+                    <p>
+                        I also experimented with live dashboards with PowerBI and Tableau. I later discovered
+                        Metabase after attending a Stashaway Data Science talk, and introduced it to the team
+                        at a Brown Bag Session. It was later taken up by the CTO and CPO to track the user metrics
+                        by connecting to our Google Analytics account.
+                    </p>
+                    <p>
+                        My biggest takeaway from this internship was learning about how to tailor a web platform to
+                        meet the needs of the operations team. My experience includes observing how customers behave
+                        on our website (Inspectlet), conducting User Acceptance Testing, automating workflows
+                        (Zapier, Front and Cognito Forms), using Amazon Web Services (devOps),
+                        learning about React (frontend), Spring Framework (backend).
+                    </p>
+                </div>
+            </div>
+            <div class="container left">
+                <div class="content">
+                    <h3>Research Assistant</h3>
+                    <div class="center">
+                        <img src="../src/companies/nus3.png" alt="NUS IORA">
+                        <h2 class="nus">NUS Institute of Operations Research and Analytics</h2>
+                    </div>
+                    <h4>May 2018 — Present</h4>
+                    <p>
+                        My role initially started off as an ad-hoc project. I was tasked to create a predictive
+                        analytics model by <a src="http://jussikeppo.com/">Associate Professor Jussi Keppo</a>.
+                        Eventually, I was hired as a Research Assistant. My work revolves around grading
+                        assignments and applying machine learning to econometric models.
+                    </p>
+                    <p>
+                        I learnt a lot about how theory is put into practice under Professor Jussi, but
+                        unfortunately due to privacy requirements I cannot reveal any more.
+                    </p>
+                </div>
+            </div>
+            <div class="container right">
+                <div class="content">
+                    <h3>Member / Secretary</h3>
+                    <div class="center">
+                        <img src="../src/companies/nus_bact.png" alt="NUS BACT">
+                        <h2 class="nus">NUS Business Analytics Consulting Team</h2>
+                    </div>
+                    <h4>Jan 2018 — Present</h4>
+                    <p>
+                        NUS BACT was my first foray into the realm of data analytics and coding. BACT under
+                        <a href="https://www.facebook.com/ganesh.muthupalani">Ganesh</a>
+                        encouraged independent learning, which suited my style.
+                        <a href="https://github.com/Angps1995">Peng Seng's</a> resources were extremely helpful
+                        in particular, and I was inspired by how much the senior members knew. This experience
+                        shaped my learning philosophy, as I believe that you don't need someone to teach you; just
+                        someone to point you in the right direction.
+                    </p>
+                    <p>
+                        I became Secretary/Treasurer for AY18/19, together with President
+                        <a href="https://www.facebook.com/unknownftw">Ting Wei</a> and my fellow RA
+                        <a href="https://www.facebook.com/alexander.leong.9">Alex Leong</a> as Vice-President.
+                        Our exco's style was to find the right balance of teaching and "doing" by incorporating
+                        teaching sessions, followed by group projects in Semester 2. Although I preferred
+                        Ganesh's style, having more guidance helped newer members from being lost.
+                    </p>
+                </div>
+            </div>
+            <div class="container left">
+                <div class="content">
+                    <h3>Member</h3>
+                    <div class="center">
+                        <img src="../src/companies/rc4.jpg" alt="RC4">
+                        <h2 id="rc4">NUS Residential College 4 (RC4)</h2>
+                    </div>
+                    <h4>Aug 2017 — Present</h4>
+                    <p>
+                        Being a freshman is tough. New to university and straight out of army, I could not
+                        get accustomed to university life. RC4 changed this. My friends at RC4 inspired me to
+                        become a better person — to work hard, to socialise more, and participate in events.
+                        They are great companions when I feel like a disappointment, and in small achievements.
+                    </p>
+                    <p>
+                        By living with others, you can see how they live their lives, and in doing so, your beliefs
+                        about your own way of living are challenged. When I stayed with my family, I lived in
+                        a bubble. Now I know what it is like to truly live a meaningful life.
+                    </p>
+                    <p>
+                        Besides the tangible benefits, RC4 is a really fun place to be in. The late night suppers,
+                        chatting over breakfast/dinner, going out to Clementi after a long week, going to JB. There
+                        is never a dull moment.
+                    </p>
+                    <p>
+                        I will always remember that RC4 is home to me.
+                    </p>
+                </div>
+            </div>
+        </div>
+            <div class="credits">
+                <h4>
+                    Copyright &#9400; 2019 Nelson Lim. All rights reserved.
+                </h4>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
